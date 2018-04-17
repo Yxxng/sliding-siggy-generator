@@ -1,0 +1,17 @@
+{
+  "name": "sliding-siggy-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generator.js",
+  "scripts": {},
+  "author": "Zee1234",
+  "license": "MIT",
+  "dependencies": {
+    "@types/autoprefixer": "^6.7.3",
+    "@types/pug": "^2.0.4",
+    "@types/stylus": "^0.48.30",
+    "autoprefixer": "^8.3.0",
+    "postcss": "^6.0.21",
+    "pug": "^2.0.3"
+  }
+}

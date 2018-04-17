@@ -1,0 +1,8 @@
+link(rel="stylesheet", href=link)
+div(class=`${prefix}_c`)
+  each val in [1,2,3,4]
+    div(class=`${prefix}_i${val} ${prefix}_i`)
+      div(class=`${prefix}_t`)
+        span(class=`${prefix}_f`)= titles[val-1]
+      div(class=`${prefix}_w${val} ${prefix}_w`)
+        div(class=`${prefix}_f`)= '{{{WORDS GO HERE}}}'

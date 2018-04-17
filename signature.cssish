@@ -1,0 +1,125 @@
+@media screen and (max-device-width: 999px) {
+  .$prefix_c::before {
+      content: "Signature super simplified due to the possibility of this being a mobile device! Sorry it's ugly now!";
+ }
+}
+@media screen and (min-device-width: 1000px) {
+  @import url("https://fonts.googleapis.com/css?family=Nova+Mono");
+  .$prefix_w {
+      position: absolute;
+      height: 200px;
+      width: 150px;
+      top: 50px;
+      left: 10px;
+      opacity: 0;
+      transition: opacity 1s;
+ }
+  $SpecialtySettings
+  .$prefix_i4 {
+      background-image: url("$image1");
+      background-color: #00f;
+ }
+  .$prefix_i3 {
+      background-image: url("$image2");
+      background-color: #008000;
+ }
+  .$prefix_i2 {
+      background-image: url("$image3");
+      background-color: #800080;
+ }
+  .$prefix_i1 {
+      background-image: url("$image4");
+      background-color: #000;
+ }
+  .$prefix_f {
+      text-shadow: 1px 1px #aeaeae, 2px 2px #aeaeae, 3px 3px #aeaeae;
+      font-size: 35px;
+      color: #000;
+ }
+  .$prefix_c {
+      width: 550px;
+      height: 300px;
+      padding: 0px;
+      margin: 0px;
+      display: table;
+      background-color: #008000;
+ }
+  .$prefix_i {
+      width: 50px;
+      height: 300px;
+      display: table-cell;
+      position: relative;
+      transition: width 1s;
+      -webkit-transition: width 1s;
+ }
+  .$prefix_c:not(:hover) > .$prefix_i1 {
+      width: 400px;
+ }
+  .$prefix_i:hover {
+      width: 400px;
+ }
+  .$prefix_i:hover > .$prefix_w:not(:hover), .$prefix_i:hover > a > .$prefix_w:not(:hover) {
+      opacity: 0.4;
+ }
+  .$prefix_w:hover {
+      opacity: 1;
+ }
+  .$prefix_c:not(:hover) > .$prefix_i1 > .$prefix_w {
+      opacity: 0.4;
+ }
+  .$prefix_f {
+      width: 75px;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      text-align: center;
+      font-size: 20;
+      font-family: 'Nova Mono', monospace;
+      color: #fff;
+      text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+ }
+  .$prefix_m {
+      background-color: rgba(255,204,0,0);
+      transition: background-color 1s, opacity 1s;
+      -moz-border-radius: 100px/50px;
+      -webkit-border-radius: 100px/50px;
+      border-radius: 150px/50px;
+ }
+  .$prefix_m:hover {
+      background-color: #fc0;
+ }
+  .$prefix_t {
+      position: absolute;
+      bottom: 3px;
+      right: 3px;
+      white-space: nowrap;
+      transform-origin: bottom right;
+      transform: rotate(-90deg) translateX(100%);
+ }
+  .$prefix_i:hover > .$prefix_t {
+      animation: rotateBack 0.5s ease-in-out 1;
+      animation-fill-mode: forwards;
+ }
+  @-moz-keyframes rotateBack {
+      100% {
+          transform: rotate(0deg) translateX(0%) translateY(0%);
+     }
+ }
+  @-webkit-keyframes rotateBack {
+      100% {
+          transform: rotate(0deg) translateX(0%) translateY(0%);
+     }
+ }
+  @-o-keyframes rotateBack {
+      100% {
+          transform: rotate(0deg) translateX(0%) translateY(0%);
+     }
+ }
+  @keyframes rotateBack {
+      100% {
+          transform: rotate(0deg) translateX(0%) translateY(0%);
+     }
+ }
+}
