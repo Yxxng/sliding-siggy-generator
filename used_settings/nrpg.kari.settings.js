@@ -2,7 +2,7 @@ module.exports = {
   name: 'NRPG_Kari',
   prefix: 'kari',
   pug: {
-    link: './NRPG_Kari.signature.css',
+    link: 'https://zee1234.github.io/sliding-siggy-generator/output/NRPG_Kari.signature.css',
     titles: [
       'Character Info',
       'Character Stats',
