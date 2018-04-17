@@ -59,6 +59,7 @@
       margin: 0px;
       display: table;
       background-color: #008000;
+      overflow: hidden;
  }
   .kari_i {
       width: 50px;

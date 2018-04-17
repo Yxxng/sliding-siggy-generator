@@ -43,6 +43,7 @@
       margin: 0px;
       display: table;
       background-color: #008000;
+      overflow: hidden;
  }
   .$prefix_i {
       width: 50px;
