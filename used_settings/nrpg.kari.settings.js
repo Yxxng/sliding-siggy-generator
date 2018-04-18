@@ -12,10 +12,10 @@ module.exports = {
   },
   style: {
     images: [
-      'https://i.imgur.com/oNK829v.png',
-      'https://i.imgur.com/XWeXIOb.png',
-      'https://i.imgur.com/W1kkBkY.png',
-      'https://i.imgur.com/upd3A0s.png'
+      'https://i.imgur.com/upd3A0s.png',
+      'https://i.imgur.com/W1kkBky.png',
+      'https://i.imgur.com/XWeXIob.png',
+      'https://i.imgur.com/oNK829v.png'
     ],
     special: `
   .$prefix_w1 {
